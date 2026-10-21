@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#fff0f5">
+  <meta name="description" content="A little birthday surprise made with love.">
+  <title>For My Favorite Person 💗</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%92%97%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="ambient-glow glow-one" aria-hidden="true"></div>
+  <div class="ambient-glow glow-two" aria-hidden="true"></div>
+  <div id="heart-rain" aria-hidden="true"></div>
+
+  <button class="music-toggle" id="music-toggle" aria-label="Play background music" title="Play or pause music">
+    <span id="music-icon" aria-hidden="true">♫</span><span class="music-label">Music</span>
+  </button>
+  <audio id="background-music" src="assets/music.mp3" loop preload="none"></audio>
+
+  <section class="intro-screen" id="intro-screen" aria-labelledby="intro-title">
+    <div class="intro-stars" aria-hidden="true">✦　♡　✧　♡　✦</div>
+    <div class="envelope-wrap">
+      <div class="envelope" aria-hidden="true">
+        <div class="envelope-back"></div>
+        <div class="letter-peek">For you, my love</div>
+        <div class="envelope-flap"></div>
+        <div class="envelope-front"></div>
+        <div class="envelope-heart">♥</div>
+      </div>
+    </div>
+    <p class="eyebrow">A tiny surprise, made with a lot of love</p>
+    <h1 id="intro-title">Hey, my <em>favorite person</em> 💗</h1>
+    <p class="intro-copy">I made something special just for you.<br>Ready to open your little world of love?</p>
+    <button class="button button-primary" id="open-surprise">Open your surprise <span>♡</span></button>
+    <p class="tiny-note">Best opened with a smile ✨</p>
+  </section>
+
+  <main id="main-content" class="hidden">
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="Back to beginning">for my love <span>♡</span></a>
+      <button class="menu-toggle" id="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+      <nav id="site-nav" aria-label="Main navigation">
+        <a href="#birthday">Birthday</a>
+        <a href="#letter">My letter</a>
+        <a href="#memories">Memories</a>
+        <a href="#love-notes">Love notes</a>
+          <a href="game.html">Love Quest ♡</a>
+        <a href="#final">One last thing</a>
+      </nav>
+    </header>
+
+    <section class="hero section-shell" id="home">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">To the girl who makes life sweeter</p>
+        <h1>Happy Birthday,<br><em>my love</em> <span class="hero-heart">♥</span></h1>
+        <p class="hero-lead">Today is all about you — your beautiful heart, your lovely smile, and all the little things that make you wonderfully you.</p>
+        <a class="button button-primary" href="#birthday">Your birthday wishes <span>↓</span></a>
+        <p class="signature">with all my love, always ♡</p>
+      </div>
+      <div class="hero-art reveal" aria-label="Illustration of a birthday cake and hearts">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <span class="floating-heart heart-a">♥</span><span class="floating-heart heart-b">♡</span>
+        <span class="sparkle sparkle-a">✦</span><span class="sparkle sparkle-b">✧</span>
+        <div class="cake-plate"></div>
+        <div class="cake">
+          <div class="cake-top"></div>
+          <div class="cake-body"><span class="icing-drip"></span><span class="cake-dot dot-one">♥</span><span class="cake-dot dot-two">♥</span><span class="cake-dot dot-three">♥</span></div>
+          <div class="cake-bottom"></div>
+          <div class="candle"><span class="flame"></span></div>
+        </div>
+        <div class="art-caption">a little cake for my sweetest girl</div>
+      </div>
+    </section>
+
+    <section class="birthday section-shell section-tint" id="birthday">
+      <div class="section-heading reveal">
+        <p class="eyebrow">A wish for your new chapter</p>
+        <h2>Today, the world celebrates <em>you</em></h2>
+        <p>And I feel lucky that I get to celebrate you, too.</p>
+      </div>
+      <div class="wish-card reveal">
+        <div class="wish-icon">🌷</div>
+        <p>May your days be full of laughter, your dreams find their way to you, and your heart always have a reason to feel loved. I hope this year brings you beautiful surprises, peaceful moments, brave new beginnings, and everything your kind heart deserves.</p>
+        <p class="wish-sign">Happy birthday, beautiful. You deserve so much happiness. 💗</p>
+      </div>
+    </section>
+
+    <section class="letter-section section-shell" id="letter">
+      <div class="section-heading reveal">
+        <p class="eyebrow">A few words from my heart</p>
+        <h2>My little <em>love letter</em> 💌</h2>
+      </div>
+      <article class="love-letter reveal">
+        <div class="letter-decoration">♡</div>
+        <p class="letter-greeting">My dearest love,</p>
+        <p>Sometimes I wonder how one person can make ordinary days feel so special. Then I think of you — your smile, your way of making me feel close to you, and all those little moments that somehow become my favorite memories.</p>
+        <p>On your birthday, I want you to know that you matter to me more than a message could ever explain. I hope you never forget how wonderful you are. I hope you keep chasing the things that make your eyes light up, keep believing in yourself, and keep being the lovely person you are.</p>
+        <p>I can't promise that every day will be perfect, but I can promise to keep appreciating the little things, cheering for your dreams, and making more beautiful memories with you. Thank you for being you and for adding so much warmth to my world.</p>
+        <p>May this new year of your life be gentle with your heart and generous with your happiness. Today, tomorrow, and in all the small moments in between, you will always have a special place in my heart. ❤️</p>
+        <p class="letter-signoff">Forever cheering for you,<br><span>[YOUR NAME] ♡</span></p>
+      </article>
+    </section>
+
+    <section class="memories section-shell section-tint" id="memories">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Little moments, big feelings</p>
+        <h2>Our memory <em>corner</em> 📸</h2>
+        <p>Every picture holds a little piece of our story. Tap a photo to see it up close.</p>
+      </div>
+      <div class="photo-grid" id="photo-grid">
+        <button class="photo-card reveal" data-photo="assets/photo1.svg" data-caption="One of my favorite memories with you ❤️"><img src="assets/photo1.svg" alt="Our memory, photo 1"><span class="photo-caption">One of my favorite memories ❤️</span></button>
+        <button class="photo-card reveal" data-photo="assets/photo2.svg" data-caption="Your smile makes everything brighter."><img src="assets/photo2.svg" alt="Our memory, photo 2"><span class="photo-caption">Your smile makes everything brighter</span></button>
+        <button class="photo-card reveal" data-photo="assets/photo3.svg" data-caption="A moment I wish I could relive."><img src="assets/photo3.svg" alt="Our memory, photo 3"><span class="photo-caption">A moment I wish I could relive</span></button>
+        <button class="photo-card reveal" data-photo="assets/photo4.svg" data-caption="Us, creating our own little world."><img src="assets/photo4.svg" alt="Our memory, photo 4"><span class="photo-caption">Our own little world</span></button>
+        <button class="photo-card reveal" data-photo="assets/photo5.svg" data-caption="A little memory that means a lot."><img src="assets/photo5.svg" alt="Our memory, photo 5"><span class="photo-caption">A little memory, a lot of love</span></button>
+        <button class="photo-card reveal" data-photo="assets/photo6.svg" data-caption="And so many more memories to come..."><img src="assets/photo6.svg" alt="Our memory, photo 6"><span class="photo-caption">So many more memories to come…</span></button>
+        <button class="photo-card reveal" data-photo="assets/photo7.svg" data-caption="Another page in our story."><img src="assets/photo7.svg" alt="Our memory, photo 7"><span class="photo-caption">Another page in our story</span></button>
+        <button class="photo-card reveal" data-photo="assets/photo8.svg" data-caption="My favorite kind of together."><img src="assets/photo8.svg" alt="Our memory, photo 8"><span class="photo-caption">My favorite kind of together</span></button>
+      </div>
+      <p class="photo-tip">Tip: Replace the sample files in the <code>assets</code> folder with your own pictures.</p>
+    </section>
+
+    <section class="reasons section-shell" id="reasons">
+      <div class="section-heading reveal">
+        <p class="eyebrow">There are a million little things</p>
+        <h2>Reasons I love <em>you</em> 💕</h2>
+        <p>Tap each heart to open a little reminder.</p>
+      </div>
+      <div class="reason-grid">
+        <button class="reason-card reveal"><span class="reason-heart">♡</span><span class="reason-title">Your smile</span><span class="reason-message">It has a way of making even an ordinary day feel brighter.</span></button>
+        <button class="reason-card reveal"><span class="reason-heart">♡</span><span class="reason-title">Your kind heart</span><span class="reason-message">The care you show people says so much about the beautiful person you are.</span></button>
+        <button class="reason-card reveal"><span class="reason-heart">♡</span><span class="reason-title">Our conversations</span><span class="reason-message">I love the little talks, the silly moments, and everything in between.</span></button>
+        <button class="reason-card reveal"><span class="reason-heart">♡</span><span class="reason-title">Your courage</span><span class="reason-message">I hope you see in yourself the strength and potential I see in you.</span></button>
+        <button class="reason-card reveal"><span class="reason-heart">♡</span><span class="reason-title">The little things</span><span class="reason-message">Tiny moments with you somehow find their way into my favorite memories.</span></button>
+        <button class="reason-card reveal"><span class="reason-heart">♡</span><span class="reason-title">Your realness</span><span class="reason-message">You don't have to be perfect to be precious to me. Just be you.</span></button>
+        <button class="reason-card reveal"><span class="reason-heart">♡</span><span class="reason-title">Our memories</span><span class="reason-message">Every shared laugh and every sweet moment is a piece of our story.</span></button>
+        <button class="reason-card reveal"><span class="reason-heart">♡</span><span class="reason-title">Simply you</span><span class="reason-message">And beyond all the reasons, I love you for being exactly who you are.</span></button>
+      </div>
+    </section>
+
+    <section class="love-notes section-shell section-tint" id="love-notes">
+      <div class="section-heading reveal">
+        <p class="eyebrow">For any kind of day</p>
+        <h2>Open when you need <em>a little love</em> 💌</h2>
+        <p>Choose an envelope. There's a tiny note waiting for you inside.</p>
+      </div>
+      <div class="envelope-grid">
+        <button class="note-envelope reveal" data-title="When you miss me" data-message="Close your eyes for a second and imagine the warmest hug from me. Even when we're not beside each other, I'm wishing you good things and cheering for you. Here's one extra hug, saved just for you. 🤗">💌<span>When you miss me</span></button>
+        <button class="note-envelope reveal" data-title="When you feel sad" data-message="You don't have to be okay every second. Take a breath, be gentle with yourself, and remember that a difficult day doesn't define your whole story. You deserve patience, comfort, and kindness — especially from yourself. ❤️">💌<span>When you feel sad</span></button>
+        <button class="note-envelope reveal" data-title="When you need a smile" data-message="Emergency reminder: you are adorable, your smile is precious, and somewhere out here is a person who thinks you're pretty amazing. I hope this note earns at least one tiny smile. 😊">💌<span>When you need a smile</span></button>
+        <button class="note-envelope reveal" data-title="When you doubt yourself" data-message="Please don't forget how much you can do. You have your own strengths, your own pace, and your own beautiful path. Take it one step at a time. I'm proud of you for trying, even when things feel hard. 🌷">💌<span>When you doubt yourself</span></button>
+        <button class="note-envelope reveal" data-title="When you need motivation" data-message="Your dreams are worth showing up for. You don't need to have everything figured out today. Start small, keep going, and give yourself credit for every bit of progress. I believe in the person you're becoming. ✨">💌<span>When you need motivation</span></button>
+      </div>
+    </section>
+
+    <section class="cake-section section-shell">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Make a birthday wish</p>
+        <h2>A little candle <em>moment</em> 🎂</h2>
+        <p>Tap the candle flame to blow it out and make your wish.</p>
+      </div>
+      <div class="interactive-cake reveal">
+        <div class="cake-flame" id="cake-flame" role="button" tabindex="0" aria-label="Blow out the candle">🔥</div>
+        <div class="interactive-candle"></div>
+        <div class="interactive-cake-top"></div>
+        <div class="interactive-cake-body"><span>♡　♡　♡</span></div>
+        <div class="interactive-cake-base"></div>
+        <div class="cake-plate-wide"></div>
+      </div>
+      <p id="wish-result" class="wish-result" aria-live="polite">Make a wish, birthday girl ✨</p>
+    </section>
+
+    <section class="final-section" id="final">
+      <div class="final-inner reveal">
+        <div class="final-photo-wrap"><img src="assets/photo1.svg" alt="A favorite photo of us" id="final-photo"></div>
+        <p class="eyebrow">Before you go…</p>
+        <h2>One last thing I want you to know <span>♡</span></h2>
+        <p class="final-teaser">There's one more message, saved just for you.</p>
+        <button class="button button-light" id="final-message-button">Read my final message 💗</button>
+        <div class="final-message hidden" id="final-message">
+          <p>Out of all the little surprises in life, getting to know you has been one of my favorites. I hope this birthday reminds you how loved, valued, and special you are. Keep smiling, keep dreaming, and never stop being your wonderful self.</p>
+          <p>Happy Birthday, my love. Here's to your happiness, your dreams, and all the beautiful memories still waiting for us. ❤️</p>
+          <p class="final-signature">With all my love,<br><strong>[YOUR NAME]</strong> ♡</p>
+        </div>
+      </div>
+      <div class="final-footer">Made with love, just for you <span>♥</span></div>
+    </section>
+  </main>
+
+  <dialog class="lightbox" id="lightbox" aria-label="Photo viewer">
+    <button class="dialog-close" id="lightbox-close" aria-label="Close photo viewer">×</button>
+    <button class="lightbox-arrow lightbox-prev" id="lightbox-prev" aria-label="Previous photo">‹</button>
+    <figure><img id="lightbox-image" src="" alt=""><figcaption id="lightbox-caption"></figcaption></figure>
+    <button class="lightbox-arrow lightbox-next" id="lightbox-next" aria-label="Next photo">›</button>
+  </dialog>
+
+  <dialog class="note-modal" id="note-modal">
+    <button class="dialog-close" id="note-close" aria-label="Close love note">×</button>
+    <div class="modal-heart">♡</div>
+    <p class="eyebrow">A little note for you</p>
+    <h2 id="note-modal-title">A note for you</h2>
+    <p id="note-modal-message"></p>
+    <button class="button button-primary" id="note-modal-done">Keep this in your heart ♡</button>
+  </dialog>
+
+  <button class="back-to-top" id="back-to-top" aria-label="Back to top">↑</button>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>

@@ -1,0 +1,1 @@
+Placeholder illustrations are photo1.svg through photo8.svg. Replace them with your real photos and update the matching .svg paths in index.html to your chosen file extension. Add optional music.mp3 here.
